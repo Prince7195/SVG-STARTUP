@@ -1,0 +1,37 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+    <text x="20" y="50" font-size="32">SVG</text>
+
+    <text x="100" y="100" font-size="48" stroke="#ccc" fill="#000" stroke-width="2" font-family="Arial, Helvetica, sans-serif">SVG</text>
+
+    <text x="100" y="150" font-size="32" writing-mode="tb" fill="#0f0">SVG</text>
+
+    <text x="100" y="150" font-size="32" fill="#f00" direction='rtl' unicode-bidi="bidi-override">SVG</text>
+
+    <text x="300" y="350" font-size="32" transform="rotate(270 300,350)" fill="#0f0">SVG</text>
+
+    <text x="300" y="350" font-size="32" transform="rotate(90 300,350)" fill="#0f0">SVG</text>
+
+    <text x="300" y="350" font-size="32" transform="rotate(180 300,350)" fill="#00f">SVG</text>
+
+    <text x="300" y="350" font-size="32" transform="rotate(0 300,350)" fill="#00f">SVG</text>
+
+    <line x1="900" y1="100" x2="900" y2="300" stroke="#000" stroke-width="2" />
+    <text x="900" y="120" font-size="32" text-anchor="start">SVG</text>
+    <text x="900" y="210" font-size="32" text-anchor="middle">SVG</text>
+    <text x="900" y="300" font-size="32" text-anchor="end">SVG</text>
+
+
+    <text x="100" y="300" font-size="32" fill="#0f0" text-decoration="underline">SVG</text>
+    <text x="100" y="350" font-size="32" fill="#0f0" text-decoration="line-through">SVG</text>
+    <text x="100" y="400" font-size="32" fill="#0f0" text-decoration="overline">SVG</text>
+
+    <text x="100" y="500" font-size="48" fill="#fff" stroke="#f00" stroke-width="2" font-family="Arial, Helvetica, sans-serif">SVG</text>
+
+    <path id="txt-path" d="M100,100 A40,40 0 1,0 200,100" stroke="#ff0000" fill="none" />
+    <text>
+        <textPath href="#txt-path">SVG text curve writing</textPath>
+    </text>
+</svg>
